@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+This is a first test using reinforcement learning.
+This is used to solved the multi-armed bandit problem.
+Using an epsilon-greedy approach.
 """
 
 import numpy as np
 import random
 import matplotlib.pyplot as plt
 
-#This is used to solved the multi-armed bandit problem
-#Using an epsilon-greedy approach
 np.random.seed(5)
 n = 10                          #number of arms
 arms = np.random.rand(n)        #gives probabilities of each arm
