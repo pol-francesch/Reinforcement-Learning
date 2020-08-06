@@ -1,6 +1,4 @@
 """
-Created on Wed Aug  5 11:01:53 2020
-
 @author: polfr
 
 Simple example of Q-Table learning using the Bellman Equation and the
