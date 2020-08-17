@@ -1,4 +1,4 @@
-#Reinforcement Learning: An Introduction (2nd Edition), by Sutton and Barto.
+# Reinforcement Learning: An Introduction (2nd Edition), by Sutton and Barto.
 
 You can find a link to the online version of the book [here](http://incompleteideas.net/book/RLbook2020.pdf)
 
