@@ -9,3 +9,5 @@ Solutions to theoretical exercises by John Weatherwax can be found [here](http:/
 Solutions to theoretical, and some programming exercises can be found in this GitHub [repo](https://github.com/LyWangPX/Reinforcement-Learning-2nd-Edition-by-Sutton-Exercise-Solutions)
 
 Guides on how to create the figures/examples found in the book can be found in this GitHub [repo](https://github.com/ShangtongZhang/reinforcement-learning-an-introduction)
+
+Please note that in some chapters I have multiple solutions to the same problem. This is as I follow the solutions linked above. For practice and undestanding, I find this method to be good for aquiring good coding practices in ML.
