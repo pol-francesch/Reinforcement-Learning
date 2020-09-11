@@ -1,8 +1,12 @@
+## Final Report for AE 4350
+This report was created as part of a final project AE 4350 at TU Delft (Bio-inspired intelligence and learning for Aerospace Applications). I created a path planning algorithm using a Monte Carlo Off-Policy control. You can find more detailed information in my report.
+
+## Code for final report
 I am including two codes in this report. The first is the one from Rastogi - though slightly modified
 to better meet my needs -, and the second one is my implementation of their code, which is heavily
 modified. The following subsections are made for running the latter.
 
-##Libraries
+## Libraries
 To run this code I am using the newest version of Python 3 along with some libraries:
 numpy - for array math
 matplotlib - for plotting
@@ -11,7 +15,7 @@ imageio - for creating gifs
 pygame - used for the map
 
 
-##Running Code
+## Running Code
 I developed the code with the PyCharm IDE, however it is not recommended to run it with that.
 This is as the PyCharm IDE can cause issues with Matplotlib. It is better to just run the code from the
 terminal. You must only run the main.py file, as the rest are simply helper files.
@@ -27,7 +31,7 @@ this of course depends on your settings and hardware. Finally, the code will end
 new plots in the images directory.
 
 
-##Options
+## Options
 There are some options found in the main.py file which can easily be changed if you would like to
 check versatility. The first two are the size of the map and the resolution. I would keep the size values
 between 2 and 6, anything smaller and the rudimentary math I used to create maps begins to break
@@ -38,10 +42,10 @@ window. If you cannot see the full size of the window, reduce this value.
 16
 Finally, if you would not like to remake graphs, you have the choice to do this. You can also rename
 your images/plots such that they will not overwrite each other.
-There is also the option to change the ² value.
+There is also the option to change the epsilon value.
 
 
-##Rastogi’s Code
+## Rastogi’s Code
 This code is significantly faster to run the set up as there are not as many states. From our end, the
 procedure is somewhat similar. You can simply run racetrack_problem.py and it will run exactly the
 same racetrack I have shown in the report.
